@@ -76,10 +76,10 @@ header img {
 main {
     grid-area: main;
     display: grid;
-    grid-template: auto / 30% auto;
+    grid-template: auto / repeat (12, 1fr);
     grid-gap: 2.5%;
     grid-template-areas:
-        "side sec";
+        "side sec sec sec sec sec sec sec sec sec sec sec";
 }
 
 /* the styles for the section */
@@ -205,7 +205,7 @@ footer p {
         padding-right: 0;
 	}
 	aside {
-		padding-right: 2.5%;
+	padding-right: 2.5%;
         padding-left: 2.5%;
         grid-row: 2 / 3;
 	}
